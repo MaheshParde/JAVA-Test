@@ -26,7 +26,7 @@ pipeline {
         steps{
           	script {
                 	git 'https://github.com/MaheshParde/JAVA-Test.git',
-                 	echo 'Code Coverage'
+                 	echo "Code Coverage"
                  	jacoco()
                     }
                      	
