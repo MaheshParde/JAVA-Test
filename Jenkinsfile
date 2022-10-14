@@ -22,7 +22,7 @@ pipeline {
 		}	
 	}
    
-   stage('Code Coverage') {
+   /*stage('Code Coverage') {
         steps{
           	script {
                 	git 'https://github.com/MaheshParde/JAVA-Test.git',
@@ -31,7 +31,7 @@ pipeline {
                     }
                      	
             }
-    }
+    }*/
 
 	stage('docker Image'){
 		steps{
